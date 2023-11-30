@@ -49,9 +49,9 @@ a:visited {
 }
 
 img {
-    max-width: 75%;
+    width: 75%;
     height: auto;
-    margin: 0;
+    margin: 20px;
  }
 #img-fig {  
     background: white;
@@ -62,13 +62,13 @@ img {
     margin: 15px 0 5px 0;
 }
 
-@media (max-width: 460px) {
+@media screen and (max-width: 560px) {
     img {
-        margin: 0;
+        width: 100%;
     }
 }
 
-@media (max-width: 460px){
+@media screen and (max-width: 560px){
     #img-caption {
         font-size: 1rem;
     }
